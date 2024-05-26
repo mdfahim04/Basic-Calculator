@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="Fahim d-flex">
+        <h2 class="txt fm">Md.Fardin Hasan Fahim</h2>
+    </div>
+
+    <div class="container-fluid">
+        <fieldset>
+             <legend class="txt fm">FM Calculator</legend>
+                <form action="" name="cform">
+            <div>
+                <input type="text" class="text" name="calculatorDisplay" placeholder="Calculator Display" readonly>
+            </div>
+
+            <div class="main-btn-group">
+                <div class="btn-group d-flex">
+                    <input type="button" class="form-control" value="&comp;" onclick="calculatorDisplay.value =''">
+                    <input type="button" class="form-control" value="&and;" onclick="calculatorDisplay.value =eval
+                    (calculatorDisplay.value*calculatorDisplay.value)">
+                    <input type="button" class="form-control" value="&#8729;" onclick="calculatorDisplay.value ='.'">
+                    <input type="button" class="form-control" value="&plus;" onclick="calculatorDisplay.value +='+'">
+                  </div>
+
+                  <div class="btn-group d-flex">
+                    <input type="button" class="form-control" value="7" onclick="calculatorDisplay.value +='7'">
+                    <input type="button" class="form-control" value="8" onclick="calculatorDisplay.value +='8'">
+                    <input type="button" class="form-control" value="9" onclick="calculatorDisplay.value +='9'">
+                    <input type="button" class="form-control" value="&minus;" onclick="calculatorDisplay.value += '-'">
+                  </div>
+
+                  <div class="btn-group d-flex">
+                    <input type="button" class="form-control" value="4" onclick="calculatorDisplay.value +='4'">
+                    <input type="button" class="form-control" value="5" onclick="calculatorDisplay.value +='5'">
+                    <input type="button" class="form-control" value="6" onclick="calculatorDisplay.value +='6'">
+                    <input type="button" class="form-control" value="&times;" onclick="calculatorDisplay.value +='*'">
+                  </div>
+
+                  <div class="btn-group d-flex">
+                    <input type="button" class="form-control" value="1" onclick="calculatorDisplay.value +='1'">
+                    <input type="button" class="form-control" value="2" onclick="calculatorDisplay.value +='2'">
+                    <input type="button" class="form-control" value="3" onclick="calculatorDisplay.value +='3'">
+                    <input type="button" class="form-control" value="&divide;" onclick="calculatorDisplay.value +='/'">
+                  </div>
+
+                  <div class="btn-group d-flex">
+                    <input type="button" class="form-control" value="&pi;" onclick="calculatorDisplay.value += '3.14159265359'">
+                    <input type="button" class="form-control" value="0" onclick="calculatorDisplay.value += '0'">
+                    <input type="button" class="form-control" value="=" onclick="calculatorDisplay.value = eval(calculatorDisplay.value)">
+                    <input type="button" class="form-control" value="&percnt;" onclick="calculatorDisplay.value = eval(calculatorDisplay.value/100)">
+                </div>
+
+    
+
+                <div class="btn-group d-flex">
+                    <input type="button" id="backbtn" class="form-control" value="&larr;" onclick="backspace()">
+                </div>
+
+              </div>
+          </form>
+        </fieldset>
+    </div>
+
+
+
+  <script src="./main.js"></script>  
+</body>
+</html>

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Monomaniac+One&display=swap');
+
+body{
+    min-height: 100vh;
+    background-color: #edf1f4;
+}
+
+.fm{
+    font: bold 20px 'Concert One', sans-serif; 
+}
+
+.txt{
+    background-color: #565656;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.Fahim h2{
+    margin: 0;
+    color: #0bceaf;
+    font-size: 40px;
+    margin-bottom: 16px;
+    opacity: 0.5;
+}
+
+fieldset{
+    width: 300px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 7px #ccc, -5px -5px 5px #fff;
+    border: 2px solid #fff;
+}
+
+legend{
+    text-align: center;
+    opacity: 0.5;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"]{
+    text-align: right;
+    outline: none;
+    border: none;
+    /* background-color: #fff; */
+    /* border: 2px solid #0bceaf; */
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    /* box-shadow: 20px 20px 30px grey inset; */
+    box-shadow:inset 5px 5px 7px #ccc, inset -5px -5px 5px #fff;
+}
+
+input[type="text"]::placeholder{
+    text-align: center;
+    font: bold 20px 'Concert One', sans-serif;
+    background-color: #565656;
+    opacity: 0.1;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.main-btn-group{
+    margin-top: 20px;
+}
+
+input[type="button"]{
+    margin: 15px;
+    box-shadow: 20px 20px 30px rgba(128, 128, 128, 0.305);
+}
+
+
+.form-control{
+    font-family: 'Concert One', sans-serif;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    background: #44d0d0a2;
+    outline: none;
+    border: 2px solid #7e7f42;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-text-fill-color: transparent;
+}
+
+#backbtn{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
